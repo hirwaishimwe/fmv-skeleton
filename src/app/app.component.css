@@ -1,0 +1,87 @@
+.hcp-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .nav-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-btn, .new-hcp-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .table-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .column-title, .hcp-data {
+    flex: 1;
+    text-align: left;
+    padding: 0 15px;
+  }
+  
+  .hcp-list {
+    width: 100%;
+  }
+  
+  .hcp-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  }
+  
+  .more-btn, .edit-btn {
+    padding: 5px 15px;
+    border: none;
+    background-color: #28a745; 
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #17a2b8; 
+  }
+  
